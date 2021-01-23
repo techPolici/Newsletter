@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  background: #000000;
+  color:'white';
+  margin: auto;
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+a:link {
+  color: #fffffc;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #FFFFFC;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c9c8d1;
+}
+
+/*!* selected link *!*/
+/*a:active {*/
+/*  color: #FFFFFC;*/
+/*}*/
+
+.box {
+  display: flex;
+}
+
+.submitIntro{
+  font-size: 30px;
+}
+
+.waterfallimage {
+  width: 600px;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 30%;
+  margin: 0px;
+}
+
+.column2 {
+  flex: 60%;
+}
+
+
+.outer {
+  overflow: hidden;
+  position: relative;
+}
+.inner {
+  position: relative;
+  bottom: -50px;
+  top: -70px;
+}
+
+
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=text] {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: 'Karla', sans-serif;
+  color: black;
+
+}
+
+
+input[type=submit] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-size: 16px;
+  background-color: #EE1D52;
+  border-radius:10px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
